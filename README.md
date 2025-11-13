@@ -78,6 +78,7 @@ Deixe este terminal rodando em segundo plano para construir seu banco de dados.
 
 ```bash
 python coletor.py
+```
 
 **Terminal 2 (Para ver o gráfico):
 
@@ -85,6 +86,7 @@ Depois de deixar o coletor rodar por um tempo (pelo menos 30-60 minutos), rode o
 
 ```bash
 python grafico.py
+```
 
 ---
 
@@ -96,5 +98,5 @@ Antes de enviar seus arquivos (`git push`), faça estas três coisas:
 Seu professor precisa saber o que instalar. No seu prompt de comando, na pasta do projeto, rode:
 ```bash
 pip freeze > requirements.txt
-
+```
 (Se o pip não for reconhecido, use py -m pip freeze > requirements.txt) Isso criará o arquivo requirements.txt que o README menciona.
