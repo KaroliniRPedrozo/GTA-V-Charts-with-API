@@ -13,7 +13,7 @@ Este projeto foi desenvolvido como um exercício prático de coleta de dados (AP
 * **Pandas:** Para carregar os dados do banco para a visualização.
 * **Matplotlib:** Para plotar o gráfico de linha.
 * **SQLite3:** Para armazenar os dados históricos coletados.
-
+* **Plotly:** É a biblioteca que desenha o gráfico interativo (modo escuro, filtros) que abre no seu navegador.
 ---
 
 ## 🚀 Como Funciona
@@ -44,23 +44,14 @@ Siga estes passos para rodar o projeto em sua máquina local.
 
 ### 2. Instalação
 
-1. Clone este repositório (ou baixe o ZIP e extraia):
+```bash
+pip install requests pandas matplotlib SQLite3 plotly
+```
+Se o seu terminal não reconhecer o `pip`, use este comando alternativo (com o `py`):
 
-    ```bash
-    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
-    ```
-
-2. Navegue até a pasta do projeto:
-
-    ```bash
-    cd SEU-REPOSITORIO
-    ```
-
-3. Instale as bibliotecas necessárias:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+py -m pip install requests pandas matplotlib SQLite3 plotly
+```
 
 ### 3. Configuração
 
